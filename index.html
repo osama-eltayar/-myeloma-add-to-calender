@@ -8,40 +8,47 @@
     <link rel="icon" href="./assets/images/logo.png" type="image/x-icon">
     <title>Add to calendar</title>
     <style type="text/css">
-        /*@media screen and (max-width: 630px) {*/
-        /*    .eventable-hide {*/
-        /*        display: none !important;*/
-        /*    }*/
+        @media screen and (max-width: 630px) {
+            .eventable-hide {
+                display: none !important;
+            }
 
-        /*    .eventable-mob-column {*/
-        /*        float: none !important;*/
-        /*        width: 100% !important;*/
-        /*    }*/
+            .eventable-mob-column {
+                float: none !important;
+                width: 100% !important;
+            }
 
-        /*    .eventable-mob-100p {*/
-        /*        width: 100% !important;*/
-        /*        height: auto !important;*/
-        /*    }*/
+            .eventable-mob-100p {
+                width: 100% !important;
+                height: auto !important;
+            }
 
-        /*    .eventable-condensed {*/
-        /*        padding-bottom: 15px !important;*/
-        /*        display: block;*/
-        /*    }*/
+            .eventable-condensed {
+                padding-bottom: 15px !important;
+                display: block;
+            }
 
-        /*    .eventable-padtopbottom {*/
-        /*        width: 100% !important;*/
-        /*        padding: 20px 0px 20px 0px;*/
-        /*    }*/
+            .eventable-padtopbottom {
+                width: 100% !important;
+                padding: 20px 0px 20px 0px;
+            }
 
-        /*    .eventable-mobile-button,*/
-        /*    .eventable-button-inner {*/
-        /*        width: 200px !important;*/
-        /*    }*/
+            .eventable-mobile-button,
+            .eventable-button-inner {
+                width: 200px !important;
+            }
 
-        /*    .eventable-mobile-icon {*/
-        /*        width: 11.5% !important;*/
-        /*    }*/
-        /*}*/
+            .eventable-mobile-icon {
+                width: 11.5% !important;
+            }
+
+            .center{
+                width: 100% !important;
+            }
+            .banner{
+                padding: 0 !important;
+            }
+        }
         .banner {
             background-repeat: no-repeat;
             background-size: cover;
@@ -56,9 +63,11 @@
             -webkit-box-pack: center;
             -ms-flex-pack: center;
             justify-content: center;
-            padding: 50px;
             text-align: center;
             position: relative;
+            width: 100%;
+            max-width: 100%;
+
         }
         .center {
             margin: auto;
@@ -71,14 +80,14 @@
 <div class="banner" style="background-image: url('./assets/images/logo.png')">
 <!--    <img src="" alt="">-->
 </div>
-<table is="true" width="100%" border="0" cellspacing="0" cellpadding="20" class="eventable-atc-bar eventable-mob-100p">
+<table is="true" align="left" width="100%" style="max-width: 100%" border="0" cellspacing="0" cellpadding="20" class="eventable-atc-bar eventable-mob-100p">
     <tbody>
     <tr>
         <td is="true" align="center" valign="top">
-            <table is="true" width="540" border="0" cellpadding="0" cellspacing="0" class="eventable-padtopbottom">
+            <table is="true" width="100%"  border="0" cellpadding="0" cellspacing="0" class="eventable-padtopbottom">
                 <tbody>
                 <tr>
-                    <td is="true" align="left" valign="top" class="eventable-condensed center">
+                    <td is="true"  valign="top" class="eventable-condensed center">
                         <table is="true" width="110" border="0" align="left" cellpadding="0" cellspacing="0"
                                class="eventable-mob-column">
                             <tbody>
@@ -113,7 +122,7 @@
                                                                         style="Margin:0!important;padding:0!important;vertical-align:middle!important;color:#ffffff!important;font-size:12px!important;line-height:19px!important;font-family:Arial,sans-serif!important;font-weight: bold!important;text-align:center!important;text-decoration:none!important;box-sizing:content-box!important;mso-hide:all;">
                                                                     <a is="true"
                                                                        target="_blank"
-                                                                       href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20210924T090000Z%2F20210924T120000Z&details=Sharing%20Best%20Practices%20in%20Multiple%20Myeloma%20Management&location=UAE&text=1ST%20Middle%20East%20Multiple%20Myeloma"
+                                                                       href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20210924T130000Z%2F20210924T160000Z&details=Sharing%20Best%20Practices%20in%20Multiple%20Myeloma%20Management&location=Virtual&text=1ST%20Middle%20East%20Multiple%20Myeloma%20StandAlone"
                                                                        style="display:block!important;Margin:-5px -2px -5px 0!important;padding:7px 2px 5px 0!important;vertical-align:middle!important;color:#ffffff!important;font-size:12px!important;line-height:19px!important;font-family:Arial,sans-serif!important;font-weight: bold!important;text-align:center!important;text-decoration:none!important;box-sizing:content-box!important;mso-hide:all;">GOOGLE</a>
                                                                 </td>
                                                             </tr>
@@ -130,7 +139,7 @@
                             </tbody>
                         </table>
                     </td>
-                    <td is="true" align="left" valign="top" class="eventable-condensed center">
+                    <td is="true"  valign="top" class="eventable-condensed center">
                         <table is="true" width="120" border="0" align="left" cellpadding="0" cellspacing="0"
                                class="eventable-mob-column">
                             <tbody>
@@ -181,7 +190,7 @@
                             </tbody>
                         </table>
                     </td>
-                    <td is="true" align="left" valign="top" class="eventable-condensed center">
+                    <td is="true"  valign="top" class="eventable-condensed center">
                         <table is="true" width="150" border="0" align="left" cellpadding="0" cellspacing="0"
                                class="eventable-mob-column">
                             <tbody>
@@ -215,7 +224,7 @@
                                                                         valign="middle"
                                                                         style="Margin:0!important;padding:0!important;vertical-align:middle!important;color:#ffffff!important;font-size:12px!important;line-height:19px!important;font-family:Arial,sans-serif!important;font-weight: bold!important;text-align:center!important;text-decoration:none!important;box-sizing:content-box!important;mso-hide:all;">
                                                                     <a is="true"
-                                                                       href="https://outlook.live.com/calendar/0/deeplink/compose?body=Sharing%20Best%20Practices%20in%20Multiple%20Myeloma%20Management&enddt=2021-09-24T12%3A00%3A00%2B00%3A00&location=UAE&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2021-09-24T09%3A00%3A00%2B00%3A00&subject=1ST%20Middle%20East%20Multiple%20Myeloma"
+                                                                       href="https://outlook.live.com/calendar/0/deeplink/compose?body=Sharing%20Best%20Practices%20in%20Multiple%20Myeloma%20Management&enddt=2021-09-24T16%3A00%3A00%2B00%3A00&location=Virtual&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2021-09-24T13%3A00%3A00%2B00%3A00&subject=1ST%20Middle%20East%20Multiple%20Myeloma%20StandAlone"
                                                                        target="_blank"
                                                                        style="display:block!important;Margin:-5px -2px -5px 0!important;padding:7px 2px 5px 0!important;vertical-align:middle!important;color:#ffffff!important;font-size:12px!important;line-height:19px!important;font-family:Arial,sans-serif!important;font-weight: bold!important;text-align:center!important;text-decoration:none!important;box-sizing:content-box!important;mso-hide:all;">OUTLOOK.COM</a>
                                                                 </td>
